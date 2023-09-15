@@ -14,7 +14,12 @@ nav div ul{
     display: flex;
 }
 
-nav div ul li{
+nav div ul li {
+    flex-grow: 1;
+}
+
+
+nav div ul li a{
     flex-grow: 1;
     text-decoration: none;
     padding: 3px 6px;
@@ -23,10 +28,10 @@ nav div ul li{
     color: gray;
 }
 
-nav div ul li a:hover{
-    background-color: greenyellow;
+nav div ul li:hover{
+    background-color: rgb(115,213,112);
 }
 
 nav div ul li a.activo{
-    background-color: greenyellow;
+    background-color: rgb(115,213,112);
 }
